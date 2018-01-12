@@ -125,7 +125,7 @@ typedef struct int128 {
 #ifdef __cplusplus
 typedef uint128_t uint128;
 #else
-#ifdef __MINGW32__
+#ifdef __GNUC__
 typedef unsigned __int128 uint128;
 #else
 #error uint128
